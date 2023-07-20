@@ -8,16 +8,39 @@ h1 {
     color: white;
 }
 
+.content {
+    margin: 0 auto;
+}
+
+.title {
+    margin-bottom: 50px;
+}
+
+.links {
+    text-align: justify;
+}
+
 ul {
     list-style: none;
+    display: flex;
+    text-align: left;
 }
 
 li {
-    font-size: 18px;
-    text-align: center;
+    font-size: 15px;
+    display: inline-flexbox;
+    margin: 0 6px;
 }
 
 a {
     text-decoration: none;
     color: rgba(61, 71, 64, 0.918);
+    display: block;
+    text-align: center;
+}
+
+p {
+    text-indent: 10px;
+    font-size: 13px;
+    text-align: justify;
 }
